@@ -9,4 +9,19 @@
 body {
     font-family: Acme; sans-serif;
     font-weight: 400;
+    color: deepskyblue;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Old Standard TT; sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: blue
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
