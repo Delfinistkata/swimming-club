@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color: lightgray;
 }
 
 body {
     font-family: Acme; sans-serif;
     font-weight: 400;
-    color: deepskyblue;
+    color: #3a3a3a
 }
 
 /* headings and logo */
@@ -18,7 +19,7 @@ h1, h2 {
     font-family: Old Standard TT; sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: blue
+    color: dodgerblue;
 }
 
 #logo {
@@ -101,22 +102,58 @@ h1, h2 {
     height: 600px;
   }
 
-  #left-about {
+  #left-side {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
   }
 
-  #right-about {
+  #right-side {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: blue;
   }
 
-  #center-about {
+  #center-side {
     width: 33%;
     margin: 0 auto;
     background-color: blue;
   }
+
+  hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+  .left-side-heading {
+    width: 60%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+  }
+
+  .left-side-heading h2 {
+    text-align: right;
+}
+
+  .left-side-heading p {
+    text-align: right;
+}
+
+  .right-side-heading {
+    width: 60%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+  }
+
+  .right-side-heading h2 {
+    text-align: right;
+}
+
+.right-side-heading p {
+    text-align: right;
+}
