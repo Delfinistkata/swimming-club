@@ -25,3 +25,33 @@ h1, h2 {
     float: left;
     font-size: 280%;
 }
+
+/* Navigation links */
+
+#menu-bar {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu-bar, #logo {
+    line-height: 75px;
+}
+
+#menu-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu-bar a:hover {
+    border-bottom: 1px solid deepskyblue;
+}
+
+.active {
+    border-bottom: 1px solid deepskyblue;
+}
