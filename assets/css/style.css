@@ -55,3 +55,11 @@ h1, h2 {
 .active {
     border-bottom: 1px solid deepskyblue;
 }
+
+/* Swimming Gif*/
+
+#swimming-gif {
+    height: 600px;
+    width: 100%;
+    background: url('../css/images/swim-butterfly-olympics.gif') repeat-x center center;
+}
