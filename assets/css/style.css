@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: lightgray;
+    background-color: whitesmoke
 }
 
 body {
@@ -117,7 +117,6 @@ h1, h2 {
   #center-side {
     width: 33%;
     margin: 0 auto;
-    background-color: blue;
   }
 
   hr {
@@ -156,4 +155,27 @@ h1, h2 {
 
 .right-side-heading p {
     text-align: right;
+}
+
+#welcome {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 280%;
+}
+
+#center-side {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: blue
+  border-width: 1px;
+  margin: 0 auto; 
+}
+
+#square-cover-bg {
+  background: url('../css/images/olympic-swimming-pool.jpg') no-repeat center center;
+  height: 100%;
+
+
 }
