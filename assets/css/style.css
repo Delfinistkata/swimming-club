@@ -177,3 +177,24 @@ h1, h2 {
   background: url('../css/images/olympic-swimming-pool.jpg') no-repeat center center;
   height: 100%;
 }
+
+/* footer */
+
+footer {
+  height: 150px;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media > li {
+  display: inline;
+}
+
+.social-media i {
+  font-size: 200%;
+  margin: 1%;
+  padding: 2%;
+  color: #3a3a3a;
+}
