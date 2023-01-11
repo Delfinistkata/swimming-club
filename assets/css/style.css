@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Acme; sans-serif;
+    font-family: Lato; sans-serif;
     font-weight: 400;
     color: #3a3a3a
 }
@@ -16,7 +16,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Old Standard TT; sans-serif;
+    font-family: Monserrat; sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: dodgerblue;
@@ -60,14 +60,14 @@ h1, h2 {
 /* Swimming Gif*/
 
 #swimming-gif {
-    height: 600px;
+    height: 300px;
     width: 100%;
     background: url('../css/images/swim-butterfly-olympics.gif') repeat-x center center;
 }
 
 /* background color to the top navigation bar */
 .topnav {
-    overflow: hidden;
+    overflow: hidden; 
     background-color: none;
   }
   
@@ -176,6 +176,4 @@ h1, h2 {
 #square-cover-bg {
   background: url('../css/images/olympic-swimming-pool.jpg') no-repeat center center;
   height: 100%;
-
-
 }
