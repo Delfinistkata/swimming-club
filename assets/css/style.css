@@ -155,11 +155,33 @@ h1, h2 {
   height: 100%;
 }
 
-/* footer */
 
-footer {
-  height: 120px;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* colors*/
+
+* {
+  margin: 0;
+  padding: 0;
 }
+
+
+/* footer */
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: #999;}
+  .copyright {
+    width: 40%;
+    float: left;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+
+}
+
+
 
 .social-media {
   text-align: center;
@@ -167,6 +189,7 @@ footer {
 
 .social-media > li {
   display: inline;
+  
 }
 
 .social-media i {
@@ -174,6 +197,7 @@ footer {
   margin: 1%;
   padding: 1%;
   color: #3a3a3a;
+
 }
 
 /* code from w3schools post (https://www.w3schools.com/howto/howto_css_flip_box.asp) */
@@ -228,7 +252,17 @@ img {
 
 /* Style background of contact page */
 
+#competitive-pool
+{
+  background-image: url('../css/images/swimming-pool-6.webp');
+  background-repeat: no-repeat;
+  background-color: #041E42
+  background-position: center;
+  background-size: cover; 
+  height: 500px;
+  position: static
 
+}
 
 
 
@@ -236,9 +270,7 @@ img {
 /*style contact form */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-body {
-  background-image: url('../css/images/swimming-pool-6.webp'); no-repeat center center;
-}
+
 
 form {
   max-width: 420px;
@@ -261,3 +293,36 @@ form {
   box-sizing: border-box;
   outline: 0;
 }
+
+.label-style {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px; 
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="submit"]:hover { background:#CC4949; }
