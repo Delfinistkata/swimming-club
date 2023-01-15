@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: whitesmoke;
+  box-shadow: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -15,46 +14,47 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
-    font-family: Monserrat; sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: dodgerblue;
-}
+header {
+  background-color: rgb(0, 15, 224);}
 
-#logo {
-    float: left;
-    font-size: 280%;
-}
+  .outside-logo {
+    padding: 20px;
+    overflow: hidden;
+    border-bottom: 4px solid #990000;
+    border-top: 4px solid #990000;
+  }
 
 /* Navigation links */
 
-#menu-bar {
-    font-size: 110%;
-    letter-spacing: 4px;
+.logo {
+  float: left;
 }
 
-#menu-bar, #logo {
-    line-height: 75px;
+.logo h2 {
+  margin-left: 50px;
+  color: #000000;
+  font-size: 45px;
+}
+.links {
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
 }
 
-#menu-bar li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
+.links a {
+  color: #000000;
+  text-decoration: none;
+  margin: 5px 20px;
+  font-size: 22px;
 }
 
-#menu-bar a {
-    text-decoration: none;
-    color: inherit;
+.links a:hover {
+  border-bottom: 2px solid #000;
+  -webkit-transition: all ease 0.75s;
+  -moz-transition: all ease 0.75s;
 }
-
-#menu-bar a:hover {
-    border-bottom: 1px solid deepskyblue;
-}
-
 .active {
-    border-bottom: 1px solid deepskyblue;
+    border-bottom: 1px solid rgb(0, 255, 242);
 }
 
 /* Swimming Gif*/
