@@ -50,9 +50,10 @@ header {
 
 .links a:hover {
   border-bottom: 2px solid #000;
-  -webkit-transition: all ease 0.75s;
+  transition: all ease 0.75s;
   -moz-transition: all ease 0.75s;
 }
+
 .active {
     border-bottom: 1px solid rgb(0, 255, 242);
 }
@@ -290,11 +291,14 @@ color: black;
 background-color: dodgerblue;
 color: white;
 transform: rotateY(180deg);
+text-align: initial;
+line-height: 1.5
 }
 
 .facts-2, flip-picture-back {
   transform: rotateY(180deg);
-  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color:  rgb(0, 15, 224);
 }
 
 section {
@@ -326,6 +330,7 @@ font-family: Arial, Helvetica, sans-serif;
 /* Remove extra left and right margins, due to padding */
 .first-row {
   margin: 0 -5px;
+  margin-bottom: 8%;
 }
 
 /* Clear floats after the columns */
