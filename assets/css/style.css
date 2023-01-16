@@ -369,6 +369,9 @@ clear: both;
 form {
   max-width: 420px;
   margin: 50px auto;
+  padding: 25px;
+  border: 20px solid #010101;
+  border-radius: 30px;
 }
 
 .feedback-input {
