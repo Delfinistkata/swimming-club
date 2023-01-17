@@ -422,4 +422,99 @@ textarea {
   font-weight:700;
 }
 
-[type="submit"]:hover { background:#CC4949; }
+[type="submit"]:hover { background:#2108e1; }
+
+/* Media Queries */
+/* Extra large devices (large laptops and desktops, 1200px wide and down) */
+
+@media only screen and (max-width: 1200px) {
+
+#left-side {
+  padding-top: 0%;
+  font-size: 13px;
+}
+
+#right-side {
+  padding-top: 0%;
+  font-size: 13px;
+}
+
+#center-side {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-style: double;
+}
+
+#welcome {
+  margin: 20px;
+}
+
+}
+
+/* Large devices (laptops/desktops, 1110px and down) */
+@media only screen and (max-width: 1110px) {
+
+#right-side{
+  font-size: 12px;
+  }
+
+  #left-side{
+    font-size: 12px;
+  }
+
+   #center-side {
+    padding-top: 8%;
+    padding-bottom: 6%;
+    border-style: none;
+   }
+
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (min-width: 768px) {
+ .copyright p {
+  letter-spacing: 0;
+ }
+
+ .outside-logo {
+  padding: 0;
+ }
+
+ #welcome {
+  font-size: 180%;
+ }
+
+ #right-side {
+  font-size: 9px;
+  width: 25%;
+  padding-top: 4%;
+ }
+
+ #left-side {
+  font-size: 9px;
+  width: 25%;
+ }
+
+ #swimming-gif {
+  padding-top: 10%;
+    margin-bottom: -9%;
+    margin-top: 9%;
+ }
+
+ #square-cover-bg {
+  margin-top: 6%;
+ }
+
+.logo h2 {
+  font-size: 31px;
+}
+
+.links {
+  font-size: 31px;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+}
