@@ -471,7 +471,7 @@ textarea {
 }
 
 /* Medium devices (landscape tablets, 768px and down) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
  .copyright p {
   letter-spacing: 0;
  }
@@ -516,5 +516,109 @@ textarea {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and down) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
+  .outside-logo {
+    padding: 0;
+  }
+
+  .logo h2 {
+    font-size: 34px;
+    float: left;
+  }
+
+  .links {
+    margin-right: 18%;
+  }
+
+  #welcome {
+    margin: 0;
+    font-size: 32px;
+  }
+
+  #right-side {
+    width: 22%;
+    font-size: 9px;
+  }
+
+  #left-side {
+    width: 22%;
+    font-size: 9px;
+  }
+
+  #square-cover-bg {
+    height: 218%
+  }
+
+  #swimming-gif {
+    margin-top: 50%;
+  }
+
+  .copyright p {
+    letter-spacing: 0;
+  }
+
+  .first-row {
+    margin-left: 11%;
+    margin-right: 47%;
+  }
 }
+
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+  .outside-logo {
+    padding-top: 6%;
+    width: 112%;
+    background-color: blue;
+  }
+
+  .logo h2 {
+    font-size: 21px;
+  }
+
+  .links {
+    width: 104%;
+    margin-right: -4%;
+  }
+
+  .links a {
+    font-size: 13px;
+    margin-left: 5%;
+  }
+
+  #welcome {
+    font-size: 19px;
+    margin-right: -3%;
+  }
+
+  #square-cover-bg {
+    height: 60%;
+    width: 93%;
+    border-style: double;
+  }
+
+  #center-side {
+    padding-bottom: 290%;
+  }
+
+  #right-side {
+    margin-top: 79%;
+  }
+
+  #left-side {
+    margin-top: 75%;
+  }
+
+  #gif-swimming {
+    width: 111%;
+  }
+
+  .copyright p {
+    padding-left: 0%;
+    font-size: 0.4em;
+  }
+
+  .contact {
+    font-size: 0.4em;
+  }
+}
+
