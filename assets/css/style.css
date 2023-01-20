@@ -473,6 +473,20 @@ textarea {
 
 [type="submit"]:hover { background:#2108e1; }
 
+/* Google Maps */
+.google-map {
+overflow:hidden;
+padding-bottom: 40%;
+position:relative;
+}
+
+.google-map iframe {
+  border: 0;
+  margin: 10%;
+  width: 75%;
+position:absolute;
+}
+
 /* Media Queries */
 /* Extra large devices (large laptops and desktops, 1200px wide and down) */
 
