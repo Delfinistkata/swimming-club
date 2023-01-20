@@ -9,7 +9,7 @@
 body {
     font-family: Lato; sans-serif;
     font-weight: 400;
-    color: #3a3a3a
+    color: #000000;
 }
 
 /* headings and logo */
@@ -18,23 +18,22 @@ header {
   background-color: rgb(0, 15, 224);}
 
   .outside-logo {
-    padding: 20px;
-    overflow: hidden;
-    border-bottom: 4px solid #990000;
-    border-top: 4px solid #990000;
+  padding: 20px;
+  overflow: hidden;
+  border-bottom: 60px solid #000000;
   }
 
 /* Navigation links */
 
 .logo {
-  float: left;
+float: left;
 }
 
 .logo h2 {
-  margin-left: 50px;
-  color: #000000;
-  font-size: 45px;
-  margin-top: 14px
+margin-left: 50px;
+color: #000000;
+font-size: 50px;
+margin-top: 14px
 }
 .links {
   float: right;
@@ -44,8 +43,8 @@ header {
 .links a {
   color: #000000;
   text-decoration: none;
-  margin: 5px 20px;
-  font-size: 22px;
+  margin: 8px 15px;
+  font-size: 24px;
 }
 
 .links a:hover {
@@ -55,7 +54,7 @@ header {
 }
 
 .active {
-    border-bottom: 1px solid rgb(0, 255, 242);
+  border-bottom: 2px solid red;
 }
 
 /* Swimming Gifs*/
@@ -144,8 +143,8 @@ header {
 
 #welcome {
   text-align: center;
-  margin: 40px 0;
-  font-size: 280%;
+  margin: 70px 0;
+  font-size: 240%;
 }
 
 #center-side {
@@ -247,8 +246,6 @@ a {
   font-size: 100%;
   margin: 1%;
   padding: 1%;
-  color: #3a3a3a;
-
 }
 
 /* code from w3schools post (https://www.w3schools.com/howto/howto_css_flip_box.asp) */
@@ -307,6 +304,15 @@ line-height: 1.5
   backface-visibility: hidden;
   background-color:  rgb(0, 15, 224);
 }
+
+.interesting-facts {
+  color: white;
+}
+
+.statements {
+  padding: 20px;
+}
+
 
 section {
   display: inline;
@@ -409,28 +415,29 @@ clear: both;
 
 
 form {
-  max-width: 420px;
-  margin: 50px auto;
-  padding: 25px;
-  border: 20px solid #010101;
-  border-radius: 30px;
+  max-width: 370px;
+  float: left;
+  margin: 5%;
+  padding: 40px;
+  border: 15px solid #010101;
+  border-radius: 15px;
 }
 
 .feedback-input {
   color: black;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  font-size: 20px;
-  border-radius: 30px;
-  line-height: 20px;
-  background-color: transparent;
-  border: 5px solid #cc6666;
-  transition: all 0.3s;
-  padding: 15px;
-  margin-bottom: 20px;
-  width: 100%;
-  box-sizing: border-box;
-  outline: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 20px;
+    line-height: 20px;
+    background-color: transparent;
+    border: 5px solid #000000;
+    transition: all 0.3s;
+    padding: 21px;
+    margin-bottom: 23px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
 }
 
 .label-style {
@@ -450,18 +457,18 @@ textarea {
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 100%;
-  background:#CC6666;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+    width: 100%;
+    background: rgb(0 51 204);
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    transition: all 0.3s;
+    margin-top: 5px;
+    font-weight: 600;
 }
 
 [type="submit"]:hover { background:#2108e1; }
