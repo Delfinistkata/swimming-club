@@ -488,9 +488,11 @@ position:absolute;
 }
 
 /* Media Queries */
-/* Extra large devices (large laptops and desktops, 1200px wide and down) */
+/* 
+  Device = Desktops, Screen = 1281px to higher resolution desktops
+*/
 
-@media only screen and (max-width: 1200px) {
+@media (min-width: 1281px) {
 
 #left-side {
   padding-top: 0%;
@@ -514,8 +516,8 @@ position:absolute;
 
 }
 
-/* Large devices (laptops/desktops, 1110px and down) */
-@media only screen and (max-width: 1110px) {
+/* #Device = Laptops, Desktops, #Screen =  1025px to 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
 
 #right-side{
   font-size: 12px;
@@ -533,8 +535,8 @@ position:absolute;
 
 }
 
-/* Medium devices (landscape tablets, 768px and down) */
-@media only screen and (max-width: 768px) {
+/* #Device = Tablets, Ipads (portrait), #Screen =  768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
  .copyright p {
   letter-spacing: 0;
  }
@@ -578,8 +580,53 @@ position:absolute;
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* #Device = Tablets, Ipads (landscape), #Screen = 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .copyright p {
+    letter-spacing: 0;
+  }
+  
+  .outside-logo {
+    padding: 0;
+  }
+  
+  #welcome {
+    font-size: 180%;
+  }
+  
+  #right-side {
+    font-size: 9px;
+    width: 25%;
+    padding-top: 4%;
+  }
+  
+  #left-side {
+    font-size: 9px;
+    width: 25%;
+  }
+  
+  #swimming-gif {
+    padding-top: 10%;
+      margin-bottom: -9%;
+      margin-top: 9%;
+  }
+  
+  #square-cover-bg {
+    margin-top: 6%;
+  }
+  
+  .logo h2 {
+    font-size: 31px;
+  }
+  
+  .links {
+    font-size: 31px;
+  }
+}
+
+
+/* #Device = Low Resolution Tablets, Mobiles (Landscape), #Screen =  481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
   .outside-logo {
     padding: 0;
   }
@@ -599,13 +646,24 @@ position:absolute;
   }
 
   #right-side {
-    width: 22%;
+    width: 62%;
     font-size: 9px;
   }
 
   #left-side {
-    width: 22%;
     font-size: 9px;
+    width: 75%;
+    padding-top: 45%;
+  }
+
+  #center-side {
+    padding: 2%;
+    margin: 31%;
+    margin-bottom: 22%;
+    margin-top: -5%;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
   }
 
   #square-cover-bg {
@@ -626,8 +684,8 @@ position:absolute;
   }
 }
 
-/* Extra small devices (phones, 320px and down) */
-@media only screen and (max-width: 320px) {
+/* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
   .outside-logo {
     padding-top: 6%;
     width: 112%;
