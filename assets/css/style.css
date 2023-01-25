@@ -159,7 +159,7 @@ margin-top: 14px
 }
 
 #square-cover-bg {
-  background: url('../css/images/olympic-swimming-pool.jpg') no-repeat center center;
+  background: url('../images/olympic-swimming-pool.jpg') no-repeat center center;
   height: 100%;
 }
 
@@ -617,7 +617,7 @@ form {
   .logo h2 {
     font-size: 34px;
     float: left;
-    padding-left: 96px;
+    padding-left: 138px;
   }
 
   .links {
@@ -632,6 +632,7 @@ form {
   #right-side {
     width: 62%;
     font-size: 15px;
+    padding-right: 8%;
   }
 
   #left-side {
@@ -681,6 +682,21 @@ form {
   text-align: center;
   color: #000000;
   margin-top: 4%;
+}
+
+.left-side-heading h2 {
+  text-align: left;
+}
+
+.left-side-heading p {
+  text-align: left;
+}
+
+.right-side-heading h2 {
+text-align: left;}
+
+.right-side-heading p {
+  text-align: left;
 }
 }
 /* #Device = Low Resolution Tablets, Mobiles, #Screen = max 680px */
@@ -890,7 +906,7 @@ padding:0%;
 }
  .outside-logo {
    padding-top: 6%;
-   width: 100%;
+   width: 113%;
    background-color: rgb(0, 15, 224);
  }
 
@@ -919,14 +935,15 @@ padding:0%;
  }
 
 #right-side {
-margin-right: 66%;
+  margin-right: 44%;
 width: 100px;
  }
 
- #left-side {
+#left-side {
    margin-top: 75%;
    width: 21%;
-   margin-left: 20px;
+   margin-left: 46px;
+}
  }
 
 .left-side-heading{
@@ -956,7 +973,7 @@ width: 100px;
 footer{
     background-color: rgb(191, 191, 191);
     float: left;
-    width: 100%;
+    width: 113%;
 }
 
 .first-row {
@@ -978,7 +995,7 @@ footer{
 }
 
 #right-side {
-  margin-right: 136px;
+  margin-right: 111px;
   width: 50%;
 }
 
@@ -998,6 +1015,10 @@ footer{
 @media  (max-width: 376px) {
 .statements {
   font-size: 17px;
+}
+
+.first-row {
+  width: 90%;
 }
 
 }
