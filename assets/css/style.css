@@ -867,19 +867,22 @@ form {
 }
 
 #maindiv{
-padding-left: 14%;
+padding:0%;
 }
 
 #maindiv p {
    text-align: left;
    line-height: 20px;
-   font-size: 20px;
-   width: 510%;
+   font-size: 15px;
 }
 
 .left-side-heading h2 {
-   text-align: right;
+   text-align: left;
    padding-top: 20%;
+}
+
+.right-side-heading h2 {
+  text-align: left;
 }
 
 .left-side-heading p {
@@ -887,8 +890,8 @@ padding-left: 14%;
 }
  .outside-logo {
    padding-top: 6%;
-   width: 120%;
-   background-color: blue;
+   width: 100%;
+   background-color: rgb(0, 15, 224);
  }
 
  .logo h2 {
@@ -898,12 +901,12 @@ padding-left: 14%;
 
  .links {
    width: 84%;
-   margin-right: 2%;
+   margin-right: 7%;
  }
 
  .links a {
    font-size: 18px;
-   margin-left: 5%;
+   margin: 1px 10px;
  }
 
  #welcome {
@@ -915,14 +918,25 @@ padding-left: 14%;
    border-style: double;
  }
 
- #right-side {
+#right-side {
 margin-right: 66%;
 width: 100px;
  }
 
  #left-side {
    margin-top: 75%;
-   width: 100px
+   width: 21%;
+   margin-left: 20px;
+ }
+
+.left-side-heading{
+  width: 300%;
+  float: left;
+  margin-left: 5px;
+}
+
+ .right-side-heading{
+  width: 150%;
  }
 
  #gif-swimming {
@@ -930,9 +944,9 @@ width: 100px;
  }
 
  .copyright p {
-   font-size: 0.7em;
+   font-size: 0.6em;
   line-height: 26px;
-  padding: 4%;
+  padding: inherit;
  }
 
 .contact {
@@ -942,7 +956,7 @@ width: 100px;
 footer{
     background-color: rgb(191, 191, 191);
     float: left;
-    width: 120%;
+    width: 100%;
 }
 
 .first-row {
@@ -959,16 +973,18 @@ footer{
 @media  (max-width: 380px) {
 #center-side {
   border-style: hidden;
-  width: 250px;
+  width: 81%;
   height: 120px
 }
 
 #right-side {
-  margin-right: 49%;
+  margin-right: 136px;
+  width: 50%;
 }
 
 #welcome {
   font-size: 24px;
+  margin: 5%;
 }
 
 .logo h2 {
