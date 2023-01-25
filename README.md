@@ -227,6 +227,82 @@ The CSS validator results are below:
 
 ![validator2](assets/readme-img/validator2.jpg)
 
+<br>
+<br>
+
+## Browser Compatibility
+
+<p>
+The website was tested on the following browsers with no visible issues for the user. Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers. </p>
+
+## Known Bugs
+
+ * Resolved
+
+
+
+
+ * Unresolved
+
+ <br>
+
+# Additional Testing
+
+ ## Lighthouse
+
+ <br>
+
+  * Performance - How the page performs whilst loading.
+
+  * Accessibility - Is the site acccessible for all users and how can it be improved.
+
+  * Best Practices - Site conforms to industry best practices.
+
+  * SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
+
+  <br>
+
+### Home Page
+
+<br>
+
+<br>
+<br>
+
+### Gallery Page
+
+<br>
+
+<br>
+<br>
+
+### Contact Page
+
+<br>
+
+<br>
+<br>
+
+### Thank you Page
+
+<br>
+
+<br>
+<br>
+
+
+# Deployment
+
+<br>
+
+ * The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+ <br>
+
+1. In the GitHub repository, navigate to the Settings tab.
+2. Once in Settings, navigate to the Pages tab on the left hand side.
+3. Under Source, select the branch to master, then click save.
+4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 
 

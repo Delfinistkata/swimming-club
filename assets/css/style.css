@@ -1,41 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
+
 * {
-  box-shadow: 0px 0px 0px 0px #ffffff;
-  padding: 0;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Lato", sans-serif; 
-    font-weight: 400;
-    color: #000000;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
 }
 
-/* headings and logo */
+
+/* heading and logo */
 
 header {
-  background-color: rgb(0, 15, 224);}
+  background-color: rgb(0, 15, 224);
+}
 
-  .outside-logo {
+.outside-logo {
   padding: 20px;
   overflow: hidden;
   border-bottom: 60px solid #000000;
-  }
+}
 
 /* Navigation links */
 
 .logo {
-float: left;
+  float: left;
 }
 
 .logo h2 {
-margin-left: 50px;
-color: #000000;
-font-size: 50px;
-margin-top: 14px
+  margin-left: 50px;
+  color: #000000;
+  font-size: 50px;
+  margin-top: 14px
 }
+
 .links {
   float: right;
   margin-right: 50px;
@@ -58,89 +64,40 @@ margin-top: 14px
   border-bottom: 2px solid red;
 }
 
-/* Swimming Gifs*/
-.row-gif {
-  float: inline-start;
+/* Club Benefits */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  text-align: center;
 }
+
+.flex-item-center {
+  background-color: #f1f1f1;
+  padding: 10px;
+  display: block;
+}
+
+.left-side {
+  background-color: #f1f1f1;
+  padding: 1%;
+  flex: 50%;
+  margin: 1%;
+}
+
+/* Swimming Gif*/
 
 .gif-css {
-    height: 40%;
-    object-fit: cover;
-    width: 50%;
-    padding: 4%;
-    margin-left: 25%;
+  height: 40%;
+  object-fit: cover;
+  width: 50%;
+  padding: 4%;
+  margin-left: 25%;
 }
-
 
 
 /* background color to the top navigation bar */
-.topnav {
-    overflow: hidden; 
-    background-color: transparent;
-  }
-  
-
-
-  /*club values*/
-
-  #club-values {
-    height: 600px;
-  }
-
-  #left-side {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-  }
-
-  #right-side {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-  }
-
-  #center-side {
-    width: 33%;
-    margin: 0 auto;
-  }
-
-  hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-  .left-side-heading {
-    width: 60%;
-    float: right;
-    line-height: 30px;
-    clear: both;
-    margin-bottom: 50px;
-  }
-
-  .left-side-heading h2 {
-    text-align: right;
-}
-
-  .left-side-heading p {
-    text-align: right;
-}
-
-  .right-side-heading {
-    width: 60%;
-    float: left;
-    line-height: 30px;
-    clear: both;
-    margin-bottom: 50px;
-  }
-
-  .right-side-heading h2 {
-    text-align: right;
-}
-
-.right-side-heading p {
-    text-align: right;
-}
 
 #welcome {
   text-align: center;
@@ -148,28 +105,22 @@ margin-top: 14px
   font-size: 240%;
 }
 
+/* Main Picture */
+
 #center-side {
-  width: 300px;
-  height: 300px;
   padding: 30px;
   border-style: double;
   border-color: #000000;
   border-width: 3px;
-  margin: 0 auto; 
+  margin: 0 auto;
+  width: 40%;
+  height: 33%;
+  margin-bottom: 10%;
 }
 
 #square-cover-bg {
-  background: url('../images/olympic-swimming-pool.jpg') no-repeat center center;
   height: 100%;
 }
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
 
 /* footer */
 footer {
@@ -179,18 +130,19 @@ footer {
   background-color: #999;
 }
 
-  .copyright {
-    width: 40%;
-    float: left;
+.copyright {
+  width: 40%;
+  float: left;
 }
 
-.copyright p{
+.copyright p {
   padding-left: 3%;
   background-color: rgb(191, 191, 191);
   font-size: 0.7em;
   line-height: 70px;
   text-transform: capitalize;
-  letter-spacing: 4px;}
+  letter-spacing: 4px;
+}
 
 
 a {
@@ -199,7 +151,7 @@ a {
   text-decoration: none;
   color: white;
   text-align: center;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .facebook {
@@ -232,7 +184,7 @@ a {
   width: 20%;
 }
 
-.social-media > li {
+.social-media>li {
   display: inline;
 }
 
@@ -243,7 +195,7 @@ a {
 }
 
 /* code from w3schools post (https://www.w3schools.com/howto/howto_css_flip_box.asp) */
-/* the four pictures on second page */
+/* the four pictures on gallery page */
 
 .flip-picture {
   background-color: transparent;
@@ -255,48 +207,50 @@ a {
 
 /* This container is needed to position the front and back side */
 .flip-picture-inner {
-position: relative;
-width: 100%;
-height: 100%;
-text-align: center;
-transition: transform 0.8s;
-transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
 /* Do a horizontal flip when you move the mouse over the flip box container */
 .flip-picture:hover .flip-picture-inner {
-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.flip-picture-front, .flip-picture-back {
-position: absolute;
-width: 100%;
-height: 100%;
--webkit-backface-visibility: hidden; 
-backface-visibility: hidden;
+.flip-picture-front,
+.flip-picture-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 
 /* Style the front side (fallback if image is missing) */
 .flip-picture-front {
-background-color: #bbb;
-color: black;
+  background-color: #bbb;
+  color: black;
 }
 
 /* Style the back side */
 .flip-picture-back {
-background-color: dodgerblue;
-color: white;
-transform: rotateY(180deg);
-text-align: initial;
-line-height: 1.5
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: initial;
+  line-height: 1.5
 }
 
-.facts-2, flip-picture-back {
+.facts-2,
+flip-picture-back {
   transform: rotateY(180deg);
   backface-visibility: hidden;
-  background-color:  rgb(0, 15, 224);
+  background-color: rgb(0, 15, 224);
 }
 
 .interesting-facts {
@@ -307,13 +261,12 @@ line-height: 1.5
   padding: 20px;
 }
 
-
 section {
   display: inline;
 }
 
 .middle {
-width: 50%;
+  width: 50%;
 }
 
 img {
@@ -323,11 +276,6 @@ img {
 }
 
 
-body {
-font-family: Arial, Helvetica, sans-serif;
-background-color: whitesmoke;
-}
-
 /* Float four columns side by side */
 .first-column {
   float: left;
@@ -335,6 +283,7 @@ background-color: whitesmoke;
   margin-left: 18%;
   margin-top: 5%;
 }
+
 /* Remove extra left and right margins, due to padding */
 .first-row {
   margin: 0 -5px;
@@ -344,31 +293,21 @@ background-color: whitesmoke;
 
 /* Clear floats after the columns */
 .first-row:after {
-content: "";
-display: table;
-clear: both;
-}
-
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-.first-column {
-  width: 100%;
-  display: block;
-  margin-bottom: 20px;
-}
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Style the counter cards */
 
-
 .card {
   box-shadow: 0 10px 35px 0 rgb(0 0 0 / 20%);
-  /* padding: 4px; */
   background-color: #f1f1f1;
 }
 
 /*Style Thank You Page*/
-.thanks1{
+
+.thanks1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -376,38 +315,33 @@ clear: both;
   padding: 5%;
 }
 
-.thankyou-wrapper{
-  width:100%;
+.thankyou-wrapper {
+  width: 100%;
   background-color: whitesmoke;
 }
 
-.thankyou-wrapper p{
-  font:30px Arial, Helvetica, sans-serif;
-  text-align:center;
-  color:#000000;
+.thankyou-wrapper p {
+  font: 30px Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #000000;
   margin-top: 4%;
 }
-.thankyou-wrapper a{
-  font:26px Arial, Helvetica, sans-serif;
-  text-align:center;
-  color:#ffffff;
-  display:block;
-  text-decoration:none;
-  width:250px;
-  background:#E47425;
+
+.thankyou-wrapper a {
+  font: 26px Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  width: 250px;
+  background: #E47425;
   margin: 6%;
   padding: 2%;
   margin-left: 38%;
   transform: translateY(-50%);
 }
 
-
-
-
-/*style contact form */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
-
+/*style contact page */
 
 form {
   max-width: 370px;
@@ -420,194 +354,190 @@ form {
 
 .feedback-input {
   color: black;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    border-radius: 20px;
-    line-height: 20px;
-    background-color: transparent;
-    border: 5px solid #000000;
-    transition: all 0.3s;
-    padding: 21px;
-    margin-bottom: 23px;
-    width: 100%;
-    box-sizing: border-box;
-    outline: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 20px;
+  line-height: 20px;
+  background-color: transparent;
+  border: 5px solid #000000;
+  transition: all 0.3s;
+  padding: 21px;
+  margin-bottom: 23px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
 }
 
 .label-style {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 18px; 
+  font-weight: 500;
+  font-size: 18px;
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus {
+  border: 2px solid #CC4949;
+}
 
 textarea {
   height: 150px;
   line-height: 150%;
-  resize:vertical;
+  resize: vertical;
 }
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    width: 100%;
-    background: rgb(0 51 204);
-    border-radius: 12px;
-    border: 0;
-    cursor: pointer;
-    color: white;
-    font-size: 30px;
-    padding-top: 9px;
-    padding-bottom: 8px;
-    transition: all 0.3s;
-    margin-top: 5px;
-    font-weight: 600;
+  width: 100%;
+  background: rgb(0 51 204);
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  transition: all 0.3s;
+  margin-top: 5px;
+  font-weight: 600;
 }
 
-[type="submit"]:hover { background:#2108e1; }
+[type="submit"]:hover {
+  background: #2108e1;
+}
 
-/* Google Maps */
+/* Style Google Maps */
+
 .google-map {
-overflow:hidden;
-padding-bottom: 40%;
-position:relative;
+  overflow: hidden;
+  padding-bottom: 40%;
+  position: relative;
 }
 
 .google-map iframe {
   border: 0;
   margin: 10%;
   width: 75%;
-position:absolute;
+  position: absolute;
 }
+
 
 /* Media Queries */
 
 /* #Device = Laptops, Desktops, #Screen =  max 1280px */
 @media (max-width: 1280px) {
 
-#right-side{
-  font-size: 12px;
+  #center-side {
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 
-  #left-side{
-    font-size: 12px;
-  }
-
-   #center-side {
-    padding-top: 8%;
-    padding-bottom: 6%;
-    border-style: none;
-   }
- 
-   .statements {
+  .statements {
     padding: 17px;
-   }
+  }
+
+  footer {
+    width: 100%;
+  }
 }
 
 /* #Device = Laptops, Desktops, #Screen =  max 1035px */
-@media  (max-width: 1035px) {
-.copyright p {
-  padding-left: 3%;
-  background-color: rgb(191, 191, 191);
-  font-size: 0.7em;
-  line-height: 70px;
-  text-transform: capitalize;
-  letter-spacing: 3px; }
+@media (max-width: 1035px) {
+  .copyright p {
+    padding-left: 3%;
+    background-color: rgb(191, 191, 191);
+    font-size: 0.7em;
+    line-height: 70px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+  }
 
   .statements {
     padding: 15px;
-}
+  }
 }
 
 /* #Device = Laptops, Desktops, #Screen =  max  1011px */
-@media  (max-width: 1011px) {
+@media (max-width: 1011px) {
   .gif-css {
     box-sizing: content-box;
-}
+  }
 }
 
 
 /* #Device = Tablets, Ipads (portrait), #Screen =  max  992px */
-@media  (max-width: 992px) {
+@media (max-width: 992px) {
   .copyright p {
-   letter-spacing: 0;
+    letter-spacing: 0;
+    font-size: 0.7em;
+    padding: 0%;
   }
- 
+
+  .contact {
+    font-size: 0.6em;
+  }
+
   .outside-logo {
-   padding: 0;
+    padding: 0;
   }
- 
+
   #welcome {
-   font-size: 180%;
+    font-size: 180%;
   }
- 
-  #right-side {
-   font-size: 9px;
-   width: 25%;
-   padding-top: 4%;
-  }
- 
-  #left-side {
-   font-size: 9px;
-   width: 25%;
-  }
- 
-  #swimming-gif {
-   padding-top: 10%;
-     margin-bottom: -9%;
-     margin-top: 9%;
-  }
- 
+
   #square-cover-bg {
-   margin-top: 6%;
+    margin-top: 6%;
   }
- 
- .logo h2 {
-   font-size: 31px;
- }
- 
- .links {
-   font-size: 31px;
- }
- 
- .gif-css {
-  box-sizing: content-box;
- }
 
- .statements {
-  padding: 11px;
- }
- 
- .google-map {
-  width: 60%;
-  padding-right: 45%;
-  padding-bottom: 65%;
+  .logo h2 {
+    font-size: 31px;
+  }
+
+  .links {
+    font-size: 31px;
+  }
+
+  .gif-css {
+    box-sizing: content-box;
+    margin-left: 15%;
+  }
+
+  .statements {
+    padding: 11px;
+  }
+
+  .google-map {
+    padding-right: 45%;
+    padding-bottom: 65%;
+    margin-bottom: 15%;
+  }
+
+  form {
+    margin-left: 30%;
+  }
 }
-
-form {
-  margin-left: 26%;
-}
- }
- 
-
-
 
 
 /* #Device = Tablets, Ipads (portrait), #Screen =  max 893px */
 @media (max-width: 893px) {
   .statements {
-      padding: 1px;
+    padding: 1px;
   }
 
   .thankyou-wrapper a {
     margin-left: 32%;
-   }
   }
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
 
 /* #Device = Low Resolution Tablets, Mobiles, #Screen = max 768px */
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
   .outside-logo {
     padding: 0;
     width: 105%;
@@ -629,36 +559,15 @@ form {
     font-size: 32px;
   }
 
-  #right-side {
-    width: 62%;
-    font-size: 15px;
-    padding-right: 8%;
-  }
-
-  #left-side {
-    margin-top: 125px;
-    font-size: 15px;
-    width: 75%;
-    padding-top: 45%;
-  }
-
   #center-side {
-    padding: 2%;
-    margin-bottom: 22%;
-    width: 300px;
-    height: 138px;
+    padding: 3%;
+    margin-bottom: 10%;
+    width: 50%;
     border-style: double;
-    padding-bottom: 212px;
-    padding-left: 30px;
-    padding-right: 30px;
   }
 
   #square-cover-bg {
     height: 218%
-  }
-
-  #swimming-gif {
-    margin-top: 50%;
   }
 
   .copyright p {
@@ -675,39 +584,27 @@ form {
     display: inline-block;
     height: 70px;
     background-color: #999;
+  }
+
+  .thankyou-wrapper p {
+    font: 20px Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+    margin-top: 4%;
+  }
 }
 
-.thankyou-wrapper p {
-  font: 20px Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: #000000;
-  margin-top: 4%;
-}
-
-.left-side-heading h2 {
-  text-align: left;
-}
-
-.left-side-heading p {
-  text-align: left;
-}
-
-.right-side-heading h2 {
-text-align: left;}
-
-.right-side-heading p {
-  text-align: left;
-}
-}
 /* #Device = Low Resolution Tablets, Mobiles, #Screen = max 680px */
 @media (max-width: 680px) {
-.statements {font-size: 14px;}
 
+  .statements {
+    font-size: 14px;
+  }
 }
 
 
 /* #Device = Low Resolution Tablets, Mobiles, #Screen = max 650px */
-@media  (max-width: 650px) {
+@media (max-width: 650px) {
   #center-side {
     padding-bottom: 178px;
   }
@@ -717,9 +614,7 @@ text-align: left;}
   }
 
   .logo h2 {
-    font-size: 34px;
-    float: left;
-    padding-left: 106px;
+    padding: 0px;
   }
 
   .links {
@@ -731,39 +626,21 @@ text-align: left;}
     font-size: 32px;
   }
 
-  #right-side {
-    width: 62%;
-    font-size: 15px;
-  }
-
-  #left-side {
-    font-size: 15px;
-    width: 75%;
-    padding-top: 45%;
-    margin-top: 27%;
-  }
-
   #center-side {
-    margin-bottom: 22%;
-    width: 300px;
-    height: 138px;
+    margin-bottom: 10%;
+    width: 50%;
+    height: 333px;
     border-style: double;
-    padding-left: 30px;
-    padding-right: 30px;
   }
 
   #square-cover-bg {
     margin-top: 0%;
   }
 
-  #swimming-gif {
-    margin-top: 50%;
-  }
-
   .copyright p {
     letter-spacing: 0;
     text-transform: none;
-    font-size: 0.5em;
+    font-size: 0.7em;
   }
 
   .gif-css {
@@ -781,246 +658,171 @@ text-align: left;}
   }
 }
 
-/* #Device = Low Resolution Tablets, Mobiles, #Screen = max 600px */
+/* Responsive columns for Gallery Page*/
+
 @media  (max-width: 600px) {
-.outside-logo { 
-  width: 175%;
+  .first-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .first-row {
+      margin: 0 -5px;
+      margin-bottom: 10%;
+      width: 100%;
+      margin-left: 13%;
+  }
 }
 
-.logo h2 {
-  padding-left: 279px
-}
+/* #Device = Low Resolution Tablets, Mobiles, #Screen = max 503px */
+@media (max-width: 503px) {
 
-.links {
-  margin-right: 33%;
-}
-
-.first-row {
-  width: 110%;
-    padding-left: 200px;
-    margin-top: 21px;
-}
-
-.statements {
-  font-size: 20px;
-}
-
-footer {
-  width: 105%;
-}
-
-.copyright p {
-  font-size: 18px;
-}
-
-#welcome {
-  margin: 11%;
-}
-
-#left-side {
-  width: 120%;
-  font-size: 20px;
-}
-
-}
-/* #Device = Low Resolution Tablets, Mobiles, #Screen = max 545px */
-@media  (max-width: 545px) {
   .copyright p {
-    font-size: 14px;
-}
-}
+    font-size: 0.5em;
+  }
 
+  .logo h2 {
+    padding-left: 0px;
+  }
+}
 
 
 /* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 480px */
 
-@media  (max-width: 480px) {
+@media (max-width: 480px) {
   .thankyou-wrapper {
-  margin-top: 50%;
-}
+    margin-top: 50%;
+  }
 
-.middle {
-  display: block;
-  margin-left: 14%;
-}
+  .copyright p {
+    font-size: 0.6em;
+    line-height: 26px;
+    padding: inherit;
+  }
 
-.thankyou-wrapper a {
-  margin-left: 16%;
-  margin-top: 20%;
-}
+  .contact {
+    font-size: 0.4em;
+  }
 
-.google-map{
-padding-bottom: 1%;
-float: left;
-margin-left: 25%;
-}
+  .middle {
+    display: block;
+  }
 
-.google-map iframe {
-position: static;
-width: 100%;
-margin-left: 0%;
+  .thankyou-wrapper a {
+    margin-left: 16%;
+    margin-top: 20%;
+  }
 
+  .google-map {
+    padding-bottom: 1%;
+    float: left;
+    margin-left: 25%;
+  }
 
-}
-form {
-   max-width: 370px;
-   float: left;
-   margin: 5%;
-   padding: 40px;
-   border: 15px solid #010101;
-   border-radius: 15px;
-   margin-right: -18%;
-}
+  .google-map iframe {
+    position: static;
+    width: 100%;
+    margin-left: 0%;
+  }
 
+  form {
+    max-width: 370px;
+    float: left;
+    margin: 5%;
+    padding: 40px;
+    border: 15px solid #010101;
+    border-radius: 15px;
+    margin-right: -18%;
+  }
 
+  .gif-css {
+    height: 40%;
+    object-fit: cover;
+    width: 60%;
+    padding: 4%;
+    margin-left: 12%;
+  }
 
-.gif-css {
-  height: 40%;
-  object-fit: cover;
-  width: 60%;
-  padding: 4%;
-  margin-left: 12%;
-}
+  .outside-logo {
+    padding-top: 6%;
+    width: 100%;
+    background-color: rgb(0, 15, 224);
+  }
 
-#maindiv{
-padding:0%;
-}
+  .logo h2 {
+    font-size: 32px;
+    padding-left: 0%;
+  }
 
-#maindiv p {
-   text-align: left;
-   line-height: 20px;
-   font-size: 15px;
-}
+  .links {
+    width: 73%;
+    margin-right: 7%;
+  }
 
-.left-side-heading h2 {
-   text-align: left;
-   padding-top: 20%;
-}
+  .links a {
+    font-size: 18px;
+    margin: 1px 10px;
+  }
 
-.right-side-heading h2 {
-  text-align: left;
-}
+  #welcome {
+    font-size: 29px;
+  }
 
-.left-side-heading p {
- text-align: left;
-}
- .outside-logo {
-   padding-top: 6%;
-   width: 113%;
-   background-color: rgb(0, 15, 224);
- }
+  #square-cover-bg {
+    border-style: double;
+  }
 
- .logo h2 {
-   font-size: 32px;
-   padding-left: 0%;
- }
-
- .links {
-   width: 84%;
-   margin-right: 7%;
- }
-
- .links a {
-   font-size: 18px;
-   margin: 1px 10px;
- }
-
- #welcome {
-  font-size: 29px;
- }
-
- #square-cover-bg {
-  
-   border-style: double;
- }
-
-#right-side {
-  margin-right: 44%;
-width: 100px;
- }
-
-#left-side {
-   margin-top: 75%;
-   width: 21%;
-   margin-left: 46px;
-}
- }
-
-.left-side-heading{
-  width: 300%;
-  float: left;
-  margin-left: 5px;
-}
-
- .right-side-heading{
-  width: 150%;
- }
-
- #gif-swimming {
-   width: 111%;
- }
-
- .copyright p {
-   font-size: 0.6em;
-  line-height: 26px;
-  padding: inherit;
- }
-
-.contact {
-  font-size: 0.4em;
-}
-
-footer{
+  footer {
     background-color: rgb(191, 191, 191);
     float: left;
-    width: 113%;
+    width: 100%;
+  }
+
+  .first-row {
+    padding-left: 5%;
+  }
+
+  .first-column {
+    margin-bottom: 50px
+  }
 }
 
-.first-row {
-  padding-left: 5%;
-}
 
-.first-column {
-  margin-bottom: 50px
-}
-
- }
-
-/* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 380 */
-@media  (max-width: 380px) {
-#center-side {
-  border-style: hidden;
+/* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 380px */
+@media (max-width: 380px) {
+  #center-side {
   width: 81%;
-  height: 120px
-}
+  }
 
-#right-side {
-  margin-right: 111px;
-  width: 50%;
-}
+  #welcome {
+    font-size: 24px;
+    margin: 5%;
+  }
 
-#welcome {
-  font-size: 24px;
-  margin: 5%;
+  .logo h2 {
+    margin-left: 39px;
+    font-size: 27px;
+  }
 }
-
-.logo h2 {
-  margin-left: 39px;
-  font-size: 27px;
-}
-}
-
 
 /* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 376 */
-@media  (max-width: 376px) {
-.statements {
-  font-size: 17px;
+@media (max-width: 376px) {
+  .statements {
+    font-size: 17px;
+  }
+
+  .first-row {
+    width: 90%;
+  }
+
 }
 
-.first-row {
-  width: 90%;
-}
+/* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 365 */
+@media (max-width: 365px) {
+
+  .links {
+    width: 86%;
+  }
 
 }
-
-
