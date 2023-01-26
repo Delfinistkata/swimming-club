@@ -455,6 +455,12 @@ textarea {
   .statements {
     padding: 15px;
   }
+
+  .thankyou-wrapper p {
+    font-size: 25px;
+  }
+
+
 }
 
 /* #Device = Laptops, Desktops, #Screen =  max  1011px */
@@ -513,7 +519,7 @@ textarea {
   }
 
   form {
-    margin-left: 30%;
+    margin-left: 25%;
   }
 }
 
@@ -605,12 +611,13 @@ textarea {
 
 /* #Device = Low Resolution Tablets, Mobiles, #Screen = max 650px */
 @media (max-width: 650px) {
+
   #center-side {
     padding-bottom: 178px;
   }
 
   .outside-logo {
-    padding: 0;
+    padding: 0px 0px;
   }
 
   .logo h2 {
@@ -643,19 +650,31 @@ textarea {
     font-size: 0.7em;
   }
 
+  form {
+  margin-left: 20%
+  }
+
   .gif-css {
     box-sizing: content-box;
   }
 
   .thankyou-wrapper a {
-    margin-top: 25%;
-    margin-left: 28%;
+    margin-top: 15%;
+    margin-left: 34%;
+    width: 30%;
+    font-size: 20px;
   }
 
   .thankyou-wrapper p {
     font: 17px Arial, Helvetica, sans-serif;
     margin-top: 11%;
   }
+
+  .google-map {
+    margin-left: 11%;
+    padding-bottom: 78%;
+  }
+
 }
 
 /* Responsive columns for Gallery Page*/
@@ -672,6 +691,10 @@ textarea {
       margin-bottom: 10%;
       width: 100%;
       margin-left: 13%;
+  }
+
+  #center-side{
+    width: 65%;
   }
 }
 
@@ -692,13 +715,21 @@ textarea {
 
 @media (max-width: 480px) {
   .thankyou-wrapper {
-    margin-top: 50%;
+    margin-top: 10%;
+  }
+
+  .thankyou-wrapper p {
+    font: 12px Arial, Helvetica, sans-serif;
   }
 
   .copyright p {
     font-size: 0.6em;
     line-height: 26px;
     padding: inherit;
+  }
+
+  #center-side{
+    width: 80%;
   }
 
   .contact {
@@ -717,82 +748,83 @@ textarea {
   .google-map {
     padding-bottom: 1%;
     float: left;
-    margin-left: 25%;
-  }
-
-  .google-map iframe {
-    position: static;
-    width: 100%;
-    margin-left: 0%;
-  }
-
-  form {
-    max-width: 370px;
-    float: left;
-    margin: 5%;
-    padding: 40px;
-    border: 15px solid #010101;
-    border-radius: 15px;
-    margin-right: -18%;
-  }
-
-  .gif-css {
-    height: 40%;
-    object-fit: cover;
-    width: 60%;
-    padding: 4%;
-    margin-left: 12%;
-  }
-
-  .outside-logo {
-    padding-top: 6%;
-    width: 100%;
-    background-color: rgb(0, 15, 224);
-  }
-
-  .logo h2 {
-    font-size: 28px;
-    padding-left: 0%;
-  }
-
-  .links {
-    width: 73%;
-    margin-right: 7%;
-  }
-
-  .links a {
-    font-size: 18px;
-    margin: 1px 10px;
-  }
-
-  #welcome {
-    font-size: 29px;
-  }
-
-  #square-cover-bg {
-    border-style: double;
-  }
-
-  footer {
-    background-color: rgb(191, 191, 191);
-    float: left;
-    width: 100%;
-  }
-
-  .first-row {
-    padding-left: 5%;
-  }
-
-  .first-column {
-    margin-bottom: 50px
-  }
+    margin-left: 8%;
+    padding-right: 28%;
 }
 
+.google-map iframe {
+  position: static;
+  width: 100%;
+  margin-left: 0%;
+}
+
+form {
+  max-width: 370px;
+  float: left;
+  margin: 5%;
+  padding: 40px;
+  border: 15px solid #010101;
+  border-radius: 15px;
+  margin-right: -18%;
+}
+
+.gif-css {
+  height: 40%;
+  object-fit: cover;
+  width: 60%;
+  padding: 4%;
+  margin-left: 12%;
+}
+
+.outside-logo {
+  padding-top: 6%;
+  width: 100%;
+  background-color: rgb(0, 15, 224);
+}
+
+.logo h2 {
+  font-size: 28px;
+  padding-left: 0%;
+}
+
+.links {
+  width: 73%;
+  margin-right: 7%;
+}
+
+.links a {
+  font-size: 18px;
+  margin: 1px 10px;
+}
+
+#welcome {
+  font-size: 29px;
+}
+
+#square-cover-bg {
+  border-style: double;
+}
+
+footer {
+  background-color: rgb(191, 191, 191);
+  float: left;
+  width: 100%;
+}
+
+.first-row {
+  padding-left: 5%;
+}
+
+.first-column {
+  margin-bottom: 50px
+}
+  }
 
 /* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 380px */
 @media (max-width: 380px) {
   #center-side {
-  width: 81%;
+    width: 90%;
+    height: 315px;
   }
 
   #welcome {
