@@ -17,29 +17,37 @@
 # Contents
 <hr>
 
- ### User Experience UX
- ### Wireframes
- ### Site Structure
- ### Design Choices
-   * Typography
-   * Colour Scheme
- ### Features
-   * Existing Features
-     - Navigation Bar
-     - Picture of the Swimming Pool
-     - Club Benefits
-     - Footer
-     - Gallery
-     - Contact Us Page
-     - Thank You Page
- ### Features left to Implement
+## [User Experience UX](<#user-experience-ux-1>)
+   ### [Wireframes](<#wireframes-1>)
+   ### [Site Structure](<#site-structure-1>)
+   ### [Design Choices](<#design-choices-1>)
+   * [Typography](<#typography>)
+   * [Colour Scheme](<#colour-scheme>)
+## [Features](<#features-1>)
+   ### [Existing Features](<#existing-features-1>)
+   * Navigation Bar 
+   * Picture of the Swimming Pool
+   * Club Benefits
+   * Footer
+   * Gallery
+   * Contact Us Page
+   * Thank You Page
+   ### [Features left to Implement](<#features-left-to-implement-1>)
    * Navigation Bar
    * Media Queries
    * Additional Pages
- ### Technologies Used
- ### Testing
- ### Deployment
- ### Credits
+## [Technologies Used](<#technologies-used-1>)
+## [Testing](<#testing-1>)
+   ### [Code Validation](<#code-validation-1>)
+   ### [Browser Compatibility](<#browser-compatibility-1>)
+   ### [Known Bugs](<#known-bugs-1>)
+## [Additional Testing](<#additional-testing-1>)
+   ### [Lighthouse](<#lighthouse-1>)
+## [Deployment](<#deployment-1>)
+## [Credits](<#credits-1>)
+   ### [Content](<#content-1>)
+   ### [Media](<#media-1>)
+## [Acknowledgements](<#acknowledgements-1>)
 
 <br>
 <hr>
@@ -77,6 +85,8 @@
 
 ![Contact Us Page](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674727679/page3_tvgsqr.png)
 
+**[Back to top](<#contents>)**
+
 <br>
 <br>
 
@@ -86,6 +96,9 @@
 
 <p> The website has three pages. The home page is the default loading page, gallery and contact us pages are all accessible primarily from the navigation menu. There is another page called thank you that users only see when they submit a form query. </p>
 
+**[Back to top](<#contents>)**
+
+<br>
 <br>
 
 # Design Choices
@@ -107,6 +120,9 @@
       the swimmer's competitive gear. Cyan colour was used to catch the user's eye and to draw their attention to the contact page. The light blue, red and orange were used for contrast between the different social media sites and easier for the user to get engaged with the club.
   </p>
 
+**[Back to top](<#contents>)**
+
+  <br>
   <br>
   
 # Features
@@ -115,6 +131,10 @@
 
 <p> This website is primarily for competitive swimmers, particularly those who are interested in joining the national swimming team and potentially achieving the qualifying times for the Olympics. The website offers information about what each swimmer will receive once they join our swimming club. Additionally, the website includes a Gallery, where each swimming stroke is shown and three facts at the back of each card associated with each stroke. The website also provides a contact us section where users can contact us if they need any further information about our swimming club. Overall, the website is for anyone who is interested in joining the national team and potentially achieving the qualifying times for the Olympics.
 </p>
+
+<br>
+
+**[Back to top](<#contents>)**
 
 <br>
 
@@ -232,6 +252,10 @@
 
 <br>
 
+**[Back to top](<#contents>)**
+
+<br>
+<br>
 
 ## Features Left to Implement:
 
@@ -251,16 +275,27 @@
 
 <br>
 
+**[Back to top](<#contents>)**
+
+<br>
+<br>
+
+
 # Technologies Used
 
 <br>
 
-* Balsamiq - used to create the wireframes.
-* Gitpod - used to deploy the website.
-* Github - used to host and edit the website.
-* HTML5 - provides the content and structure for the website.
-* CSS - provides the styling.
-* JavaScript - provides the function.
+* [Balsamiq](https://balsamiq.com/wireframes/) - used to create the wireframes.
+* [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - provides the function.
+* [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
+* [Github](https://github.com/) - used to host and edit the website.
+
+
+<br>
+
+**[Back to top](<#contents>)**
 
 <br>
 <br>
@@ -307,6 +342,10 @@ The CSS validator results are below:
 ![validator2](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674725519/css-validator_onyvf4.jpg)
 
 <br>
+
+**[Back to top](<#contents>)**
+
+<br>
 <br>
 
 ## Browser Compatibility
@@ -315,8 +354,11 @@ The CSS validator results are below:
 The website was tested on the following browsers with no visible issues for the user. Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers. </p>
 
 <br>
-<br>
 
+**[Back to top](<#contents>)**
+
+<br>
+<br>
 
 ## Known Bugs
 
@@ -337,9 +379,11 @@ The website was tested on the following browsers with no visible issues for the 
    <p>.......</p>
 
 <br>
+
+**[Back to top](<#contents>)**
+
 <br>
-
-
+<br>
 
 # Additional Testing
 
@@ -391,8 +435,11 @@ The website was tested on the following browsers with no visible issues for the 
 ![Thank you Page](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674736058/LHTP4_ixmo7p.jpg)
 
 <br>
-<br>
 
+**[Back to top](<#contents>)**
+
+<br>
+<br>
 
 # Deployment
 
@@ -400,7 +447,7 @@ The website was tested on the following browsers with no visible issues for the 
 
  * The site was deployed to GitHub pages. The steps to deploy are as follows:
 
- <br>
+<br>
 
 1. In the GitHub repository, navigate to the Settings tab.
 2. Once in Settings, navigate to the Pages tab on the left hand side.
@@ -417,6 +464,10 @@ The website was tested on the following browsers with no visible issues for the 
 The live link can be found here: 
 
 <br>
+
+**[Back to top](<#contents>)**
+
+<br>
 <hr>
 <br>
 
@@ -426,6 +477,10 @@ The live link can be found here:
 
      1. Log in to GitHub and locate the repository.
      2. On the right hand side of the page inline with the repository name is a button called 'Fork', click on the button to create a copy of the original repository in your GitHub Account.
+
+<br>
+
+**[Back to top](<#contents>)**
 
 <br>
 <hr>
@@ -443,8 +498,74 @@ The live link can be found here:
      6. Press enter and the local clone will be created.
 
 <br>
+
+**[Back to top](<#contents>)**
+
+<br>
 <hr>
 <br>
+
+# Credits
+
+<br>
+
+   ## Content
+
+ <br>
+
+* [Google Fonts]("https://fonts.google.com/") : Used for fonts
+* [Google Maps](https://www.google.com/maps): Used for maps.
+* [Font Awesome](https://fontawesome.com/): Used for icons.
+* [TinyPNG](https://tinypng.com/): Used to compress images.
+* [W3School](https://www.w3schools.com/howto/howto_css_flip_box.asp): Used for the flip cards
+* [Britanicca](https://www.britannica.com/sports/swimming-sport/Mens-swimming-world-championships): Used for facts on the cards
+* [Swimming World](https://www.swimmingworldmagazine.com/news/the-evolution-of-backstroke/):  Used for facts on the cards for Backstroke
+* [Swimming](https://www.swimming.org/sport/history-of-front-crawl/): Used for facts on the cards for freestyle
+* [Tritonwear](https://blog.tritonwear.com/the-history-of-freestyle-swimming): Used for facts on the cards for freestyle
+* [Your Swim Log](https://www.yourswimlog.com/butterfly-stroke/): Used for facts on the cards for Butterfly
+* [British Swim School](https://britishswimschool.com/southlands-chicago/quick-facts-about-butterfly-2/): Used for facts on the cards for Butterfly
+* [Newyorker](https://www.newyorker.com/sports/sporting-scene/the-murky-history-of-the-butterfly-stroke): Used for facts on the cards for Butterfly
+* [Kids Kiddle](https://kids.kiddle.co/Breaststroke): Used for facts on the cards for Breaststroke
+* [British Swim School](https://britishswimschool.com/southlands-chicago/quick-facts-about-breaststroke-2/): Used for facts on the cards for Breaststroke
+* [Your Swim Log](https://www.yourswimlog.com/breaststroke/): Used for facts on the cards for Breaststroke
+* [Codepen](https://codepen.io/ZachSaucier/pen/jOwNvO): Used idea for form
+* [Codepen](https://codepen.io/craigengland/pen/karzdG): Used idea for footer
+* [Codepen](https://codepen.io/Jasoooongg/pen/bMLNGZ): Used idea for header
+* [Codepen](https://codepen.io/Navedkhan012/pen/VBXoQj): Used idea for thank you page
+* [Readme.md](https://github.com/kpetrauskas92/alex-honnold-p1/blob/main/README.md?plain=1): Used for some ideas
+
+<br>
+<br>
+
+   ## Media
+
+   <br>
+
+* [Pexels](https://www.pexels.com/photo/a-man-doing-the-butterfly-stroke-8688526/): Used for the swimming strokes
+* [Unsplash](https://unsplash.com/photos/ZU23GWLoCWc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink): Used 
+for swimming strokes
+* [Freepik](https://www.freepik.com/): Used for picture on thank you page
+* [Giphy](https://giphy.com/gifs/sylterinselliebe-olimpiadas-olimpicos-olimpico-nKrLA723kcA3dSThqA): Used for gif
+
+<br>
+
+**[Back to top](<#contents>)**
+
+<br>
+<hr>
+<br>
+
+# Acknowledgements
+
+<hr>
+<br>
+
+This website was developed and designed as a Portfolio 1 Project for Full Stack Software Developer Diploma course at the [Code Institute](https://codeinstitute.net/). I would like to thank my mentor Marcel Mulders, our facilitator Chris Quinn, the Slack community, and all at the Code Institute for their help and support. I really enjoyed working on this project as I have great interest in swimming, which the website is about.
+
+<br>
+<br>
+
+**[Back to top](<#contents>)**
 
 
 
