@@ -751,7 +751,7 @@ textarea {
   }
 
   .logo h2 {
-    font-size: 32px;
+    font-size: 28px;
     padding-left: 0%;
   }
 
@@ -809,7 +809,7 @@ textarea {
 /* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 376 */
 @media (max-width: 376px) {
   .statements {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .first-row {
@@ -818,11 +818,23 @@ textarea {
 
 }
 
-/* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 365 */
+/* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 365px */
 @media (max-width: 365px) {
 
   .links {
     width: 86%;
   }
 
+}
+
+/* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 308px */
+@media (max-width: 365px) {
+  .links {
+    width: 88%;
+}
+
+.logo h2 {
+  margin-left: 16px;
+  font-size: 24px;
+}
 }
