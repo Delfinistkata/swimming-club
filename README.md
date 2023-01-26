@@ -475,8 +475,8 @@ The live link can be found here:
 
    * A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
 
-     1. Log in to GitHub and locate the repository.
-     2. On the right hand side of the page inline with the repository name is a button called 'Fork', click on the button to create a copy of the original repository in your GitHub Account.
+1. Log in to GitHub and locate the repository.
+2. On the right hand side of the page inline with the repository name is a button called 'Fork', click on the button to create a copy of the original repository in your GitHub Account.
 
 <br>
 
@@ -490,12 +490,12 @@ The live link can be found here:
 
    * The method from cloning a project from GitHub is below:
 
-     1. Under the repository’s name, click on the code tab.
-     2. In the Clone with HTTPS section, click on the clipboard icon to copy the given URL.
-     3. In your IDE of choice, open Git Bash.
-     4. Change the current working directory to the location where you want the cloned directory to be made.
-     5. Type git clone, and then paste the URL copied from GitHub.
-     6. Press enter and the local clone will be created.
+1. Under the repository’s name, click on the code tab.
+2. In the Clone with HTTPS section, click on the clipboard icon to copy the given URL.
+3. In your IDE of choice, open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type git clone, and then paste the URL copied from GitHub.
+6. Press enter and the local clone will be created.
 
 <br>
 
