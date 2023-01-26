@@ -444,6 +444,10 @@ textarea {
   footer {
     width: 100%;
   }
+
+  .google-map {
+    padding-bottom: 50%;
+  }
 }
 
 /* #Device = Laptops, Desktops, #Screen =  max 1035px */
@@ -853,6 +857,10 @@ textarea {
 
   .links {
     width: 86%;
+  }
+
+  .contact {
+    font-size: 0.6em;
   }
 
 }
