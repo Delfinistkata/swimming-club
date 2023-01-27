@@ -19,7 +19,6 @@ body {
   flex-direction: column;
 }
 
-
 /* heading and logo */
 
 header {
@@ -99,7 +98,6 @@ header {
   margin-left: 25%;
 }
 
-
 /* background color to the top navigation bar */
 
 #welcome {
@@ -147,7 +145,6 @@ footer {
   text-transform: capitalize;
   letter-spacing: 4px;
 }
-
 
 a {
   float: left;
@@ -200,6 +197,7 @@ a {
 }
 
 /* code from w3schools post (https://www.w3schools.com/howto/howto_css_flip_box.asp) */
+
 /* the four pictures on gallery page */
 
 .flip-picture {
@@ -280,8 +278,8 @@ img {
   height: -webkit-fill-available;
 }
 
-
 /* Float four columns side by side */
+
 .first-column {
   float: left;
   width: 20%;
@@ -290,6 +288,7 @@ img {
 }
 
 /* Remove extra left and right margins, due to padding */
+
 .first-row {
   margin: 0 -5px;
   margin-bottom: 8%;
@@ -297,6 +296,7 @@ img {
 }
 
 /* Clear floats after the columns */
+
 .first-row:after {
   content: "";
   display: table;
@@ -425,10 +425,10 @@ textarea {
   position: absolute;
 }
 
-
 /* Media Queries */
 
 /* #Device = Laptops, Desktops, #Screen =  max 1280px */
+
 @media (max-width: 1280px) {
 
   #center-side {
@@ -450,6 +450,7 @@ textarea {
 }
 
 /* #Device = Laptops, Desktops, #Screen =  max 1035px */
+
 @media (max-width: 1035px) {
   .copyright p {
     padding-left: 3%;
@@ -468,20 +469,19 @@ textarea {
     font-size: 25px;
   }
 
-
 }
 
 /* #Device = Laptops, Desktops, #Screen =  max  1011px */
+
 @media (max-width: 1011px) {
   .gif-css {
     box-sizing: content-box;
   }
 }
 
-
 /* #Device = Tablets, Ipads (portrait), #Screen =  max  992px */
-@media (max-width: 992px) {
 
+@media (max-width: 992px) {
   .left-side {
     margin: 1%;
   }
@@ -491,6 +491,7 @@ textarea {
     font-size: 0.7em;
     padding: 0%;
   }
+
   .outside-logo {
     padding: 0;
   }
@@ -531,8 +532,8 @@ textarea {
   }
 }
 
-
 /* #Device = Tablets, Ipads (portrait), #Screen =  max 893px */
+
 @media (max-width: 893px) {
   .statements {
     padding: 1px;
@@ -544,6 +545,7 @@ textarea {
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
+
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
@@ -551,6 +553,7 @@ textarea {
 }
 
 /* #Device = Low Resolution Tablets, Mobiles, #Screen = max 768px */
+
 @media (max-width: 768px) {
   .outside-logo {
     padding: 0;
@@ -603,17 +606,16 @@ textarea {
 }
 
 /* #Device = Low Resolution Tablets, Mobiles, #Screen = max 680px */
-@media (max-width: 680px) {
 
+@media (max-width: 680px) {
   .statements {
     font-size: 14px;
   }
 }
 
-
 /* #Device = Low Resolution Tablets, Mobiles, #Screen = max 650px */
-@media (max-width: 650px) {
 
+@media (max-width: 650px) {
   #center-side {
     padding-bottom: 178px;
   }
@@ -697,8 +699,8 @@ textarea {
 }
 
 /* #Device = Low Resolution Tablets, Mobiles, #Screen = max 503px */
-@media (max-width: 503px) {
 
+@media (max-width: 503px) {
   .copyright p {
     font-size: 0.5em;
   }
@@ -708,11 +710,9 @@ textarea {
   }
 }
 
-
 /* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 480px */
 
 @media (max-width: 480px) {
-
   .thankyou-wrapper {
     margin-top: 10%;
   }
@@ -734,11 +734,6 @@ textarea {
   .middle {
     display: block;
   }
-
-  /* .thankyou-wrapper a {
-    margin-left: 16%;
-    margin-top: 20%;
-  } */
 
   .google-map {
     padding-bottom: 1%;
@@ -814,6 +809,7 @@ textarea {
 }
 
 /* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 380px */
+
 @media (max-width: 380px) {
   #center-side {
     width: 90%;
@@ -832,6 +828,7 @@ textarea {
 }
 
 /* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 376 */
+
 @media (max-width: 376px) {
   .statements {
     font-size: 16px;
@@ -844,6 +841,7 @@ textarea {
 }
 
 /* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 365px */
+
 @media (max-width: 365px) {
 
   .links {
@@ -857,6 +855,7 @@ textarea {
 }
 
 /* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 308px */
+
 @media (max-width: 365px) {
   .links {
     width: 88%;

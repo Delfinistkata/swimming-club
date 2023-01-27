@@ -387,6 +387,57 @@ The website was tested on the following browsers with no visible issues for the 
 <br>
 <br>
 
+## Common Elements Test
+
+<br>
+
+  **Header**
+
+ * By clicking on the main logo will bring the user back to the landing page.
+
+<br>
+
+  **Navigation Bar**
+
+  * Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the user.
+
+  * By clicking on the navigation bar's links will bring the user to the specified page.
+
+  <br>
+
+  **Flip Cards**
+
+  * Hovering over each card on the gallery page, the card will flip and the user will be able to read the facts on each card.
+
+<br>
+
+  **Contact Us Page**
+
+  * When filling out the form, the user is required to complete all fields before submitting.
+
+  * By clicking on each field for the details, the outlining of the field is highlighted for the user.
+
+  * By clicking and dragging on the map will move the area shown on the map for the user.
+
+  * By clicking the plus and minus buttons changes the zoom of the map.
+
+<br>
+
+  **Thank you Page**
+
+  * By clicking the button on the thank you page, it will bring back the user to the home page.
+
+<br>
+
+  **Footer**
+
+  * By clicking on the social media links will open the specific website on a new tab.
+
+  * By clicking on the contact us link will bring the user to the contact us page.
+
+<br>
+<br>
+
 ## Known Bugs
 
 <br>
