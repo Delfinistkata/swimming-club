@@ -244,8 +244,8 @@ a {
 
 /* Style the back side */
 .flip-picture-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: #7aebff;
+  color: #000000;
   transform: rotateY(180deg);
   text-align: initial;
   line-height: 1.5
@@ -316,7 +316,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
   padding: 5%;
 }
 
@@ -339,7 +338,7 @@ img {
   display: block;
   text-decoration: none;
   width: 250px;
-  background: #E47425;
+  background: #000000;
   margin: 6%;
   padding: 2%;
   margin-left: 38%;
@@ -615,10 +614,6 @@ textarea {
 /* #Device = Low Resolution Tablets, Mobiles, #Screen = max 650px */
 @media (max-width: 650px) {
 
-  .thanks1 {
-    width: 80%;
-  }
-
   #center-side {
     padding-bottom: 178px;
   }
@@ -717,10 +712,6 @@ textarea {
 /* #Device = Most of the Smartphones Mobiles (Portrait), #Screen =  max 480px */
 
 @media (max-width: 480px) {
-
-  .thanks1 {
-    width: 80%;
-  }
 
   .thankyou-wrapper {
     margin-top: 10%;
