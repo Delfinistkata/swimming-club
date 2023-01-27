@@ -10,21 +10,27 @@
 <br>
 <br>
 
+![Responsive](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674819766/mainpic_lab5pv.png)
+
+
+<br>
+<br>
+
 <hr>
 <br>
 <br>
 
 # Contents
-<hr>
 
-## [User Experience UX](<#user-experience-ux-1>)
-   ### [Wireframes](<#wireframes-1>)
-   ### [Site Structure](<#site-structure-1>)
-   ### [Design Choices](<#design-choices-1>)
-   * [Typography](<#typography>)
-   * [Colour Scheme](<#colour-scheme>)
-## [Features](<#features-1>)
-   ### [Existing Features](<#existing-features-1>)
+
+ ## [User Experience UX](<#user-experience-ux-1>)
+   1. ### [Wireframes](<#wireframes-1>)
+   2. ### [Site Structure](<#site-structure-1>)
+   3. ### [Design Choices](<#design-choices-1>)
+   * #### [Typography](<#typography>)
+   * #### [Colour Scheme](<#colour-scheme>)
+ ## [Features](<#features-1>)
+   1. ### [Existing Features](<#existing-features-1>)
    * Navigation Bar 
    * Picture of the Swimming Pool
    * Club Benefits
@@ -32,22 +38,23 @@
    * Gallery
    * Contact Us Page
    * Thank You Page
-   ### [Features left to Implement](<#features-left-to-implement-1>)
+   2. ### [Features left to Implement](<#features-left-to-implement-1>)
    * Navigation Bar
    * Media Queries
    * Additional Pages
-## [Technologies Used](<#technologies-used-1>)
-## [Testing](<#testing-1>)
-   ### [Code Validation](<#code-validation-1>)
-   ### [Browser Compatibility](<#browser-compatibility-1>)
-   ### [Known Bugs](<#known-bugs-1>)
-## [Additional Testing](<#additional-testing-1>)
-   ### [Lighthouse](<#lighthouse-1>)
-## [Deployment](<#deployment-1>)
-## [Credits](<#credits-1>)
-   ### [Content](<#content-1>)
-   ### [Media](<#media-1>)
-## [Acknowledgements](<#acknowledgements-1>)
+ ## [Technologies Used](<#technologies-used-1>)
+ ## [Testing](<#testing-1>)
+   1. ### [Code Validation](<#code-validation-1>)
+   2. ### [Browser Compatibility](<#browser-compatibility-1>)
+   3. ### [Responsiveness](<#responsiveness-test>)
+   4. ### [Known Bugs](<#known-bugs-1>)
+ ## [Additional Testing](<#additional-testing-1>)
+   * ### [Lighthouse](<#lighthouse-1>)
+ ## [Deployment](<#deployment-1>)
+ ## [Credits](<#credits-1>)
+   1. ### [Content](<#content-1>)
+   2. ### [Media](<#media-1>)
+ ## [Acknowledgements](<#acknowledgements-1>)
 
 <br>
 <hr>
@@ -148,7 +155,7 @@
 
 <br>
 
-![nav bar](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674725520/nav_bar_yhwivd.jpg) 
+![nav bar](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674815703/nav_bar_1_mnaxoz.jpg) 
 
 <br>
 
@@ -189,7 +196,7 @@
 
 <br>
 
-![footer](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674733969/footer_iplmrn.jpg)
+![footer](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674815778/footer1_w8q2ag.jpg)
 
 <br>
 
@@ -207,7 +214,7 @@
 <br>
 <br>
 
-![facts](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674734046/facts_ukh5mg.png)
+![facts](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674815825/facts1_czcyhb.jpg)
 
 <br>
 
@@ -248,7 +255,7 @@
 <br>
 <br>
 
-![button](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674725519/button_y58x1c.jpg)
+![button](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674816036/button1_gn8m3m.jpg)
 
 <br>
 
@@ -348,6 +355,7 @@ The CSS validator results are below:
 <br>
 <br>
 
+
 ## Browser Compatibility
 
 <p>
@@ -356,6 +364,25 @@ The website was tested on the following browsers with no visible issues for the 
 <br>
 
 **[Back to top](<#contents>)**
+
+<br>
+<br>
+
+## Responsiveness Test
+
+<br>
+
+<p> The responsive design tests were carried out manually with Google Chrome DevTools and Responsive Design Checker. </p>
+
+<br>
+<br>
+
+
+|        |IPhone SE|Galaxy S8+ |iPhone XR | iPad | iPad Pro | Display <1200px | Display >1200px |
+|--------|---------|-----------|----------|------|----------|-----------------|-----------------|
+| Render | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Images | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Links  | pass    | pass      | pass     | pass | pass     | pass            | pass            |
 
 <br>
 <br>
@@ -376,7 +403,7 @@ The website was tested on the following browsers with no visible issues for the 
 
 * Unresolved
 
-   <p>.......</p>
+   <p> No bugs found. </p>
 
 <br>
 
@@ -405,7 +432,7 @@ The website was tested on the following browsers with no visible issues for the 
 
 <br>
 
-![Home Page](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674735423/LHHP1_vvplf4.jpg)
+![Home Page](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674818918/Page1LH_rr2suj.jpg)
 
 <br>
 <br>
@@ -423,7 +450,7 @@ The website was tested on the following browsers with no visible issues for the 
 
 <br>
 
-![Contact Page](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674735855/LHCP3_h2rilz.jpg)
+![Contact Page](https://res.cloudinary.com/doyc0uqcs/image/upload/v1674819022/page3LH_bkp44s.jpg)
 
 <br>
 <br>
