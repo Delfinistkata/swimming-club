@@ -47,7 +47,8 @@
    1. ### [Code Validation](<#code-validation-1>)
    2. ### [Browser Compatibility](<#browser-compatibility-1>)
    3. ### [Responsiveness](<#responsiveness-test>)
-   4. ### [Known Bugs](<#known-bugs-1>)
+   4. ### [Common Elements Test](<#common-elements-test-1>)
+   5. ### [Known Bugs](<#known-bugs-1>)
  ## [Additional Testing](<#additional-testing-1>)
    * ### [Lighthouse](<#lighthouse-1>)
  ## [Deployment](<#deployment-1>)
@@ -539,7 +540,7 @@ The website was tested on the following browsers with no visible issues for the 
 
 <br>
 
-The live link can be found here: 
+The live link can be found [here](https://delfinistkata.github.io/swimming-club/)
 
 <br>
 
